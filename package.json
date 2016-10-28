@@ -10,7 +10,7 @@
     "src/"
   ],
   "name": "babel-plugin-strip-function-call",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel plugin strip any function call.",
   "main": "lib/babel-plugin-strip-function-call.js",
   "scripts": {
