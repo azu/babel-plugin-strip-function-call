@@ -1,6 +1,6 @@
 // LICENSE : MIT
 "use strict";
-export default function() {
+module.exports = function() {
     return {
         visitor: {
             CallExpression(path) {
@@ -23,4 +23,4 @@ export default function() {
             }
         }
     };
-}
+};
