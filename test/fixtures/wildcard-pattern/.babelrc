@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "../../../src/babel-plugin-strip-function-call",
+      {
+        "strip": [
+          "*.log"
+        ]
+      }
+    ]
+  ]
+}
