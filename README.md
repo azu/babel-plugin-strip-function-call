@@ -65,6 +65,21 @@ Write following:
 }]
 ```
 
+### Notes
+
+```js
+["strip-function-call", {
+    "strip": [
+        // not include ()
+        "console.log"
+    ]
+}]
+```
+
+The pattern don't strip `console["log"](...)` by design.
+If you want to strip computed method pattern, please file issue.
+
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/babel-plugin-strip-function-call/releases).
