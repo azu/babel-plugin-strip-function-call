@@ -1,4 +1,4 @@
-# babel-plugin-strip-function-call
+# babel-plugin-strip-function-call [![Build Status](https://travis-ci.org/azu/babel-plugin-strip-function-call.svg?branch=master)](https://travis-ci.org/azu/babel-plugin-strip-function-call)
 
 Babel plugin that strip any function call.
 
